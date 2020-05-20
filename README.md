@@ -1,2 +1,1 @@
-# dilanbalci.github.io
-personal web site
+Personal web site
