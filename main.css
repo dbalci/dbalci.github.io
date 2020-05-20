@@ -1,0 +1,96 @@
+body{
+    background-color: 051014;
+    min-height: 100rem;
+    display: grid;
+}
+
+body div{
+    min-height: 25%;
+}
+
+div .l{
+    border-right: 1px solid #8d5a60;
+
+}
+
+div{
+    border-bottom: 1px solid #8d5a60;
+}
+.about{
+    display: flex;
+}
+
+.about .l{
+    width: 20%;
+    background-color: #8a9895;
+
+}
+
+.about .l:hover{
+
+}
+
+
+.about-r{
+    width: 80%;
+    background-color: #bbc8c7;
+}
+
+.about-r:hover{
+
+}
+.project{
+    background-color: #9da7aa;
+    display: flex;
+}
+
+.project .l{
+    width: 60%;
+    background-color: #bbc8c7;
+
+}
+
+.project-r{
+    width: 40%;
+    background-color: #8a9895;
+
+}
+
+.experience{
+    background-color: #82908f;
+        display: flex;
+
+}
+
+.experience .l{
+    width: 30%;
+    background-color: #8a9895;
+
+}
+
+.experience-r{
+    width: 70%;
+    background-color: #bbc8c7;
+
+}
+
+.education{
+    background-color: #677874;
+    display: flex;
+
+}
+.education .l{
+    width: 65%;
+    background-color: #bbc8c7;
+
+}
+
+.education-r{
+    width: 35%;
+    background-color: #8a9895;
+
+}
+
+.contact{
+
+}
