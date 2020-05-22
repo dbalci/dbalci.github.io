@@ -6,11 +6,36 @@ body {
     max-width: 800px;
     padding: 1em;
     line-height: 1.4;
-    text-align: justify
+    text-align: justify;
 }
 
 a {
     text-decoration: none;
     color: #0077aa;
-    font
+    font: large;
 }
+
+.projects{
+    display: grid;
+    margin-left: 2em;
+}
+
+h3{
+    color: #aa0077;
+}
+
+a{
+    /* margin-top: 1rem; */
+}
+.questo-pic{
+    display: grid;
+}
+
+.rmf-pic{
+    display: grid;
+}
+
+.aa-pic{
+    display: grid;
+}
+g
