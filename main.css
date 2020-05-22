@@ -12,7 +12,7 @@ body {
 a {
     text-decoration: none;
     color: #0077aa;
-    font: large;
+    font-size: small;
 }
 
 .projects{
@@ -39,10 +39,23 @@ a{
     display: grid;
 }
 
-li{
+.experience-list{
     list-style-type: none;
 }
 
-li p{
+.experience-list p{
+    margin-left: 1rem;
+}
+
+.proje-list{
+    margin-left: none;
+    list-style-type: square;
+}
+
+.edu-list{
+    list-style-type: none;
+}
+
+.edu-list p{
     margin-left: 1rem;
 }
