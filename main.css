@@ -38,4 +38,11 @@ a{
 .aa-pic{
     display: grid;
 }
-g
+
+li{
+    list-style-type: none;
+}
+
+li p{
+    margin-left: 1rem;
+}
