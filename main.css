@@ -28,7 +28,14 @@ a{
     /* margin-top: 1rem; */
 }
 .questo-pic{
-    display: grid;
+    display: flex;
+    float: left;
+    overflow: hidden;    
+    flex-direction: column;
+}
+
+.questo-list{
+    margin-left: 20rem;
 }
 
 .rmf-pic{
@@ -57,5 +64,23 @@ a{
 }
 
 .edu-list p{
-    margin-left: 1rem;
+    margin: 0rem 0rem 0rem 1rem;
+}
+
+.ccsf, .hacettepe, .appacademy{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.dna img{
+    margin-right: 29rem;
+}
+
+.computer{
+    margin-right: 30.5rem;
+}
+
+.uni{
+    margin-right: 29.5rem;
 }
