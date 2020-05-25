@@ -84,3 +84,15 @@ a{
 .uni{
     margin-right: 29.5rem;
 }
+
+.side {
+    display: flex;
+}
+
+.side img{
+    margin-right: 1rem;
+}
+
+h4 i{
+    font-weight: 500;
+}
