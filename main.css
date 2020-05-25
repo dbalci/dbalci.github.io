@@ -24,26 +24,12 @@ h3{
     color: #aa0077;
 }
 
-a{
-    /* margin-top: 1rem; */
-}
-.questo-pic{
-    display: flex;
+.project-pic{
     float: left;
-    overflow: hidden;    
-    flex-direction: column;
 }
 
-.questo-list{
+.project-list {
     margin-left: 20rem;
-}
-
-.rmf-pic{
-    display: grid;
-}
-
-.aa-pic{
-    display: grid;
 }
 
 .experience-list{
@@ -95,4 +81,8 @@ a{
 
 h4 i{
     font-weight: 500;
+}
+
+.license{
+    font-size: small;
 }
