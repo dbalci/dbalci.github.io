@@ -1,9 +1,13 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: Open Sans,Arial;
     color: #454545;
-    font-size: 16px;
+    font-size: 1.4rem;
     margin: 2em auto;
-    max-width: 800px;
+    max-width: 80rem;
     padding: 1em;
     line-height: 1.4;
     text-align: justify;
@@ -15,74 +19,131 @@ a {
     font-size: small;
 }
 
-.projects{
-    display: grid;
-    margin-left: 2em;
+
+.projects {
+    display: flex;
+    margin-left: 2rem;
+    flex-direction: column;
 }
 
-h3{
+.projects h3 {
+    margin-top: 3rem;
     color: #aa0077;
 }
 
-.project-pic{
-    float: left;
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
 }
 
-.project-list {
-    margin-left: 20rem;
+.project-info a {
+    flex-basis: 50%;
 }
 
-.experience-list{
-    list-style-type: none;
+.project-info ul {
+    padding-left: 2rem;
 }
 
-.experience-list p{
+.project-image {
+    width: 100%;
+    height: 100%;
+    flex-basis: 45%;
+}
+
+.experience-list {
+   display: flex;
+   flex-direction: column;
+   padding-left: 0;
+}
+
+.experience-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logos {
+    flex-basis: 15%;
+    width: 1rem;
+}
+
+.edu-logos {
+    flex-basis: 10%;
+    width: 1rem;
+}
+
+.experience-detail {
+    display: flex;
+    flex-direction: column;
     margin-left: 1rem;
+    flex-basis: 90%;
 }
 
-.proje-list{
-    margin-left: none;
-    list-style-type: square;
+.experience-list li {
+    border-bottom: 1px solid gray;
+    margin-bottom: 1rem;
 }
 
-.edu-list{
+.experience-list li:last-child {
+    border-bottom: none;
+}
+
+.experience-list li p {
+    margin-left: 0;
+}
+
+.bare-list {
     list-style-type: none;
 }
 
-.edu-list p{
-    margin: 0rem 0rem 0rem 1rem;
-}
-
-.ccsf, .hacettepe, .appacademy{
+.education-list {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-
-.dna img{
-    margin-right: 29rem;
+.education-list li {
+    margin-top: 2rem;
+    flex-direction: column;
 }
 
-.computer{
-    margin-right: 30.5rem;
-}
-
-.uni{
-    margin-right: 29.5rem;
-}
-
-.side {
+.education-title {
     display: flex;
+    flex-direction: row;
 }
 
-.side img{
-    margin-right: 1rem;
+.education-detail {
+    display: flex;
+    flex-direction: column;
 }
 
-h4 i{
-    font-weight: 500;
-}
-
-.license{
+.license {
     font-size: small;
+}
+
+/*for tablet*/
+@media screen and (min-width: 480px) {
+    .project-info{
+        flex-direction: row;
+    }
+    body {
+        font-size: 1.6rem;
+    }
+    .project-info ul {
+        padding-left: 4rem;
+    }   
+}
+
+/*for desktop*/
+@media screen and (min-width: 800px) {
+    .project-info{
+        flex-direction: row;
+    }
+    body {
+        font-size: 1.6rem;
+    }
+    .project-info ul {
+        padding-left: 6rem;
+    }
 }
