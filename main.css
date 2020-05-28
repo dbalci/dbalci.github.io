@@ -19,7 +19,6 @@ a {
     font-size: small;
 }
 
-
 .projects {
     display: flex;
     margin-left: 2rem;
@@ -30,7 +29,6 @@ a {
     margin-top: 3rem;
     color: #aa0077;
 }
-
 
 .project-info {
     display: flex;
@@ -66,11 +64,6 @@ a {
 
 .logos {
     flex-basis: 15%;
-    width: 1rem;
-}
-
-.edu-logos {
-    flex-basis: 10%;
     width: 1rem;
 }
 
@@ -122,16 +115,24 @@ a {
     font-size: small;
 }
 
+#licence-icon {
+    width: 2%;
+    height: 2%;
+}
+
 /*for tablet*/
 @media screen and (min-width: 480px) {
-    .project-info{
-        flex-direction: row;
-    }
     body {
         font-size: 1.6rem;
     }
+    .project-info{
+        flex-direction: row;
+    }
     .project-info ul {
         padding-left: 4rem;
+    }
+    .logos{
+        flex-basis: 10%;
     }   
 }
 
