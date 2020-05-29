@@ -13,14 +13,15 @@ body {
     text-align: justify;
 }
 
-h1{
-    margin-top: 6rem;
-}
-
 a {
     text-decoration: none;
     color: #0077aa;
     font-size: small;
+}
+
+.main-photo {
+    height: 16rem;
+    width: 14rem;
 }
 
 .projects {
@@ -33,6 +34,7 @@ a {
     margin-top: 3rem;
     color: #aa0077;
 }
+
 
 .project-info {
     display: flex;
@@ -68,18 +70,17 @@ a {
 
 .logos {
     flex-basis: 15%;
-    width: 1rem;
 }
 
 .experience-detail {
     display: flex;
     flex-direction: column;
     margin-left: 1rem;
-    flex-basis: 90%;
+    flex-basis: 85%;
 }
 
 .experience-list li {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #808080;
     margin-bottom: 1rem;
 }
 
@@ -91,18 +92,19 @@ a {
     margin-left: 0;
 }
 
-.bare-list {
+.bare-list{
     list-style-type: none;
 }
 
 .education-list {
     display: flex;
     flex-direction: column;
+    padding-left: 0;
 }
 
 .education-list li {
-    margin-top: 2rem;
-    flex-direction: column;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #808080;
 }
 
 .education-title {
@@ -113,10 +115,7 @@ a {
 .education-detail {
     display: flex;
     flex-direction: column;
-}
-
-.license {
-    font-size: small;
+    margin-left: 1rem;
 }
 
 #licence-icon {
@@ -137,16 +136,17 @@ a {
     }
     .logos{
         flex-basis: 10%;
-    }   
+    }
 }
+
 
 /*for desktop*/
 @media screen and (min-width: 800px) {
-    .project-info{
-        flex-direction: row;
-    }
     body {
         font-size: 1.6rem;
+    }
+    .project-info{
+        flex-direction: row;
     }
     .project-info ul {
         padding-left: 6rem;
